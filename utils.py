@@ -2,6 +2,7 @@
 """
 Created on Thu May 14 06:55:06 2020
 @author: lcovarrubias, eledgarmurillo
+Utilities
 
 """
 import numpy as numpy
@@ -36,7 +37,7 @@ def minority(d):
         return -1
     else:
         return rand_pm()
-            
+
 def max_idx(a):
     L = len(a)
     idx =[0]
